@@ -33,6 +33,7 @@ npm install
 ## Configuration
 
 1. Rename the `.env.example` file to `.env`:
+- If you would prefer using vercel postgres, delete the database related env variables and follow the setup here- https://www.google.com/search?q=vercel+postgres&sourceid=chrome&ie=UTF-8
 
 ```bash
 mv .env.example .env

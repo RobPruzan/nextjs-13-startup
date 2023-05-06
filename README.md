@@ -51,6 +51,10 @@ mv .env.example .env
 ```bash
 npx prisma migrate dev
 ```
+2. Generate prisma client
+```bash
+npx prisma generate
+```
 
 ## Running the Development Server
 

@@ -13,16 +13,15 @@ npm -v
 
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Select "Use this template" to start a new project
+
+![image](https://user-images.githubusercontent.com/97781863/236640684-53278a1e-0b0a-4be0-b4e9-2e9dfabdff72.png)
+
+2. Clone and enter the repo
 
 ```bash
-git clone https://github.com/RobPruzan/nextjs-13-startup.git
-```
-
-2. Change into the newly created directory:
-
-```bash
-cd nextjs-13-startup-repo
+git clone <repo-url>
+cd <repo-name>
 ```
 
 3. Install the required dependencies:

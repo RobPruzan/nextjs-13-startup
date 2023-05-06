@@ -1,4 +1,4 @@
-# NextJS 13 Startup Repository README
+# NextJS 13 Startup Repository
 
 This repo is designed to help you get started quickly with a new project using the NextJS 13 app dir with prisma, and next-auth configured.
 

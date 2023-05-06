@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS 13 Startup Repository README
 
-## Getting Started
+This repo is designed to help you get started quickly with a new project using the NextJS 13 app dir with prisma, and next-auth configured.
 
-First, run the development server:
+## Prerequisites
+
+Ensure that you have Node.js (v16 or higher) and npm (v7 or higher) installed on your system. You can check your current versions by running the following commands:
+
+```bash
+node -v
+npm -v
+```
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/RobPruzan/nextjs-13-startup.git
+```
+
+2. Change into the newly created directory:
+
+```bash
+cd nextjs-13-startup-repo
+```
+
+3. Install the required dependencies:
+
+```bash
+npm install
+```
+
+## Configuration
+
+1. Rename the `.env.example` file to `.env`:
+
+```bash
+mv .env.example .env
+```
+
+2. Obtain the necessary credentials for authentication and database setup, and update the `.env` file accordingly. You'll need to provide the following:
+
+- Client IDs and secrets
+- Database URLs
+
+## Database Setup
+
+1. Run the Prisma migration to set up the database schema:
+
+```bash
+npx prisma migrate dev
+```
+
+## Running the Development Server
+
+1. Start the development server on port 3000:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Open your browser and navigate to `http://localhost:3000` to view your NextJS 13 application.
